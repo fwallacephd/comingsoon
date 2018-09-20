@@ -1,0 +1,67 @@
+/*Color Codes
+Blue :   #28ace2
+Green :  #92c754
+Yellow:  #fbbd11
+
+Footer:  #666666
+footer text : #b1b1b1
+*/
+
+@font-face {
+  font-family: NeutraBold;
+  src: url(NeutraDisplayBold.otf);
+}
+
+@font-face {
+  font-family: NeutraLight;
+  src: url(NeutraDisplayLight.otf);
+}
+
+body {
+  background: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+.comingSoon {
+  font-family: NeutraLight;
+  font-size: 90px;
+  color: white;
+}
+
+.logoBlock {
+  background-color: white;
+}
+
+.logoImg {
+  width: 60%;
+}
+
+.tagline {
+  font-family: NeutraBold;
+  font-size: 50px;
+}
+
+.details {
+  font-family: NeutraLight;
+  font-size: 30px;
+  line-height: 20px;
+}
+
+.explain {
+  background-color: #28ace2;
+  color: white;
+  font-size: 20px;
+}
+
+.blue {
+  color: #28ace2;
+}
+
+.ether {
+  font-family: NeutraBold;
+  color: black;
+  font-size: 30px; 
+  line-height: 20px;
+}
+
