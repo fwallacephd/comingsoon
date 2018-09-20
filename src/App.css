@@ -31,6 +31,7 @@ body {
 
 .logoBlock {
   background-color: white;
+  padding: 0px;
 }
 
 .logoImg {
@@ -65,3 +66,27 @@ body {
   line-height: 20px;
 }
 
+.updates {
+  background-color: #92c754;
+  color: white;
+  font-size: 20px;
+}
+
+.behindScenes {
+  background-color: #fbbd11;
+  color: white;
+  font-size: 20px;
+}
+
+.explain, .behindScenes, .updates {
+  padding: 10px;
+  margin: 0px; 
+  
+}
+
+.footer {
+  background-color: #666666;
+  font-size: 15px;
+  line-height: 15px; 
+  color: #b1b1b1;
+}

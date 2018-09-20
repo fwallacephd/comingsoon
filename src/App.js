@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Centerblock from './Centerblock/Centerblock';
 import Ether from './Ether/Ether';
+import Footer from './Footer/footer'
 
 class App extends Component {
   render() {
@@ -18,6 +19,7 @@ class App extends Component {
           </div>
           <Centerblock></Centerblock>
           <Ether></Ether>
+          <Footer></Footer>
         </div>
       </div>
     );
